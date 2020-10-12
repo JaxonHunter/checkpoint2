@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit = no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- NAVBAR with title and change style option -->
+  <header class="container-fluid">
+    <div class="row"><div class="col">
+      <div class="VeHi1"></div>
+    </div></div>
+  </header>
+  <!-- MAIN PROGRAM -->
+  <main class="container-fluid bg-dark">
+    <div class="row">
+      <!-- Interact Col -->
+      <div class="col-4 boarder2">
+        <!-- clicker icon -->
+        <div class="row"><div class="col VeHi4 text-center d-flex align-items-center boarder">
+          <div class="row"><div class="col">
+          <img class="img-fluid" src="cave.png" onclick="imageclick()" alt="">
+          </div></div>
+        </div></div>
+        <!-- total resorce display -->
+        <div class="row"><div class="col VeHi2 boarder">
+          <h3 id=resorceDisplay>resorce</h3>
+        </div></div>
+        <!-- Store -->
+        <div class="row"><div class="col VeHi3 boarder">
+          <h6 class="text-center">Click Gather/Automatic Gather</h6>
+          <div>
+            <div class="row scrollershop">
+              <div class="col">
+                <p><button class="btn bg-light" id="button1" onclick="buttonclick(0)">50</button> Extra Pocket +1/0</p>
+                <p><button class="btn bg-light" id="button2" onclick="buttonclick(1)">100</button> Party Member: Warrior 0/+1</p>
+                <p><button class="btn bg-light" id="button3" onclick="buttonclick(2)">250</button> Party Member: Support 0/+2</p>
+                <p><button class="btn bg-light" id="button4" onclick="buttonclick(3)">1000</button> Party Member: Wizard +5/+10</p>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div></div>
+      </div>
+      <!-- Display Col -->
+      <div class="col-8">
+        <!-- Image -->
+        <div class="row"><div class="col VeHi4 text-center">
+          <h1>dungeon crawler</h1>
+        </div></div>
+        <!-- info display -->
+        <div class="row boarder2">
+          <div class="col">
+            <!-- Stats -->
+            <div class="row"><div class="col VeHi2 boarder">
+              <h6 id="stats">stat</h6>
+            </div></div>
+            <!-- Inventory -->
+            <div class="row"><div class="col VeHi3 boarder">
+              <h4>Inventory</h4>
+              <h5 id="numofitems">numofitems</h5>
+            </div></div>
+          </div>
+          <!-- TBD -->
+          <div class="col VeHiTBD boarder">
+            <h2>TBD</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container-fluid bg-dark">
+<!-- TBD -->
+  </footer>
+
+
+  <script src="app.js"></script>
+</body>
+</html>

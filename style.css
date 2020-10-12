@@ -1,0 +1,35 @@
+.VeHi1{
+  height: 4.3vh;
+}
+.VeHi2{
+  height: 10vh;
+}
+.VeHi3{
+  height: 25vh;
+  
+}
+.VeHi4{
+  height: 60vh;
+}
+.VeHiTBD{
+  height: 35vh;
+}
+.VeHi5{
+  height: 95vh;
+}
+.scrollershop{
+  max-height: 17vh;
+  overflow-y: auto;
+}
+.boarder{
+  border-style: solid;
+  border-radius: 3vh;
+  border-color: rgb(rgb(51, 34, 20));
+  background-image: url("download.jpg");
+}
+.boarder2{
+  border-style: solid;
+  border-radius: 3vh;
+  border-color: rgb(rgb(0, 0, 0));
+  background-color: rgb(36, 25, 20);
+}
